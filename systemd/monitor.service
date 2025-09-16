@@ -1,0 +1,16 @@
+# systemd unit to run monitor as a service
+
+[Unit]
+Description=App Monitor (SES alert)
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/app-monitor-ses-alert
+ExecStart=/home/ubuntu/app-monitor-ses-alert/scripts/monitor.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,1 @@
+# step-by-step AWS SES / IAM instructions

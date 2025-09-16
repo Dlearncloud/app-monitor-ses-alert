@@ -1,0 +1,43 @@
+2025-09-16 18:32:35 | Starting monitor for http://127.0.0.1:8000/health (check every 60 s, retry 3 times)
+2025-09-16 18:32:36 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:33:37 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:34:38 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:35:38 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:36:39 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:37:39 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:38:40 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:39:40 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:40:41 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:41:42 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:42:42 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:43:43 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:44:44 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:45:45 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:46:45 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 18:47:46 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 19:03:41 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 19:04:43 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 19:28:03 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 19:29:03 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 19:30:04 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 19:31:06 | curl failed when calling http://127.0.0.1:8000/health
+2025-09-16 19:31:06 | Failure #1 detected (rc=2).
+2025-09-16 19:31:07 | Will retry after 5 seconds...
+2025-09-16 19:31:14 | curl failed when calling http://127.0.0.1:8000/health
+2025-09-16 19:31:14 | Failure #2 detected (rc=2).
+2025-09-16 19:31:14 | Will retry after 5 seconds...
+2025-09-16 19:31:22 | curl failed when calling http://127.0.0.1:8000/health
+2025-09-16 19:31:22 | Failure #3 detected (rc=2).
+2025-09-16 19:31:23 | Sending alert via SES: [ALERT] Service DOWN: http://127.0.0.1:8000/health
+
+Error parsing parameter '--destination': Unable to load paramfile file:///tmp/tmp.pZS75XGnuU: [Errno 2] No such file or directory: '/tmp/tmp.pZS75XGnuU'
+2025-09-16 19:31:24 | Failed to send alert via SES. Check aws cli configuration / IAM permissions.
+2025-09-16 19:32:26 | curl failed when calling http://127.0.0.1:8000/health
+2025-09-16 19:32:26 | Failure #1 detected (rc=2).
+2025-09-16 19:32:26 | Will retry after 5 seconds...
+2025-09-16 19:32:34 | curl failed when calling http://127.0.0.1:8000/health
+2025-09-16 19:32:34 | Failure #2 detected (rc=2).
+2025-09-16 19:32:34 | Will retry after 5 seconds...
+2025-09-16 19:32:39 | Checked http://127.0.0.1:8000/health -> HTTP 200
+2025-09-16 19:32:40 | Service recovered. Resetting fail_count.
+2025-09-16 19:33:40 | Checked http://127.0.0.1:8000/health -> HTTP 200
